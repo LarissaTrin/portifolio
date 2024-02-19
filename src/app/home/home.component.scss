@@ -1,0 +1,58 @@
+.portfolio-home {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(72, 72, 72);
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+  color: rgb(72, 72, 72);
+}
+
+.social-icons:hover {
+  transform: scale(1.2);
+}
+
+.txt-animado {
+  font-weight: 300;
+}
+
+.txt-animado span {
+  position: relative;
+}
+
+.txt-animado span::before {
+  content: "";
+  animation: palavras 20s infinite;
+}
+
+.txt-animado span::after {
+}
+
+@keyframes palavras {
+  0%,
+  25% {
+    content: "Web";
+  }
+  26%,
+  50% {
+    content: "Front-end";
+  }
+  51%,
+  75% {
+    content: "Back-end";
+  }
+  76%,
+  100% {
+    content: "Full Stack";
+  }
+}

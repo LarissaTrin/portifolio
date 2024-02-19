@@ -1,0 +1,34 @@
+<nav class="navbar bg-light px-3 mb-3">
+  <span class="navbar-brand">Navbar</span>
+  <ul class="nav nav-pills" [ngbScrollSpyMenu]="s">
+    <li class="nav-item">
+      <button class="nav-link" ngbScrollSpyItem="basic-1">First</button>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link" ngbScrollSpyItem="basic-2">Second</button>
+    </li>
+    <li ngbDropdown class="nav-item">
+      <button ngbDropdownToggle class="nav-link" ngbScrollSpyItem="basic-p1">
+        Dropdown
+      </button>
+      <ul ngbDropdownMenu>
+        <li>
+          <button ngbDropdownItem ngbScrollSpyItem="basic-3" parent="basic-p1">
+            Third
+          </button>
+        </li>
+        <li>
+          <button ngbDropdownItem ngbScrollSpyItem="basic-4" parent="basic-p1">
+            Fourth
+          </button>
+        </li>
+        <li><hr class="dropdown-divider" /></li>
+        <li>
+          <button ngbDropdownItem ngbScrollSpyItem="basic-5" parent="basic-p1">
+            Fifth
+          </button>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>

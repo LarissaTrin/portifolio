@@ -1,0 +1,91 @@
+<div class="scroll-container">
+  <nav class="navbar bg-light px-3 mb-3 sticky-top navbar-expand-lg">
+    <div class="container-fluid">
+      <span class="navbar-brand">Larissa Trindade</span>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navBarColapse"
+        aria-controls="navBarColapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul
+        class="nav nav-pills collapse navbar-collapse justify-content-end"
+        id="navBarColapse"
+        [ngbScrollSpyMenu]="s"
+      >
+        <li class="nav-item">
+          <button
+            class="nav-link"
+            ngbScrollSpyItem="basic-1"
+            routerLink="/home"
+          >
+            Home
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            class="nav-link"
+            ngbScrollSpyItem="basic-2"
+            routerLink="/about"
+          >
+            Sobre mim
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            class="nav-link"
+            ngbScrollSpyItem="basic-3"
+            routerLink="/project"
+          >
+            Projetos
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            class="nav-link"
+            ngbScrollSpyItem="basic-4"
+            routerLink="/training"
+          >
+            Formação
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            class="nav-link"
+            ngbScrollSpyItem="basic-5"
+            routerLink="/contact"
+          >
+            Contatos
+          </button>
+        </li>
+        <button type="button" class="btn btn-link" (click)="toggleIcon()">
+          <i *ngIf="isDarkmode" class="bi bi-moon-stars"></i>
+          <i *ngIf="!isDarkmode" class="bi bi-brightness-high"></i>
+        </button>
+      </ul>
+    </div>
+  </nav>
+
+  <div
+    ngbScrollSpy
+    #s="ngbScrollSpy"
+    rootMargin="0px 0px -40%"
+    class="p-3 rounded-2 mb-3"
+    style="height: 90vh"
+  >
+    <h4 ngbScrollSpyFragment="basic-1"></h4>
+    <app-home></app-home>
+    <app-about ngbScrollSpyFragment="basic-2"></app-about>
+    <h4 ngbScrollSpyFragment="basic-3">Projetos</h4>
+    <app-projects></app-projects>
+    <h4 ngbScrollSpyFragment="basic-4">Formação</h4>
+    <app-training></app-training>
+    <h4 ngbScrollSpyFragment="basic-5">Contato</h4>
+    <app-contact></app-contact>
+  </div>
+</div>
