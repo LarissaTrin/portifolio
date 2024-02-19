@@ -1,0 +1,4 @@
+https://devicon.dev
+https://icons.getbootstrap.com/?q=js
+https://getbootstrap.com/docs/5.3/components/card/
+https://ng-bootstrap.github.io/#/components/nav/examples
