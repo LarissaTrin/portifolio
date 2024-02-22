@@ -1,0 +1,23 @@
+.svg-icons {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin-top: 13px;
+  fill: rgb(129, 129, 129);
+  stroke: none;
+  fill-rule: nonzero;
+  fill-opacity: 1;
+  transition: transform 0.3s ease;
+}
+
+.path-whats {
+  fill: rgb(129, 129, 129);
+}
+
+.svg-icons:hover {
+  transform: scale(1.2);
+}
+
+.svg-icons:hover .path-whats {
+  fill: #40c351;
+}

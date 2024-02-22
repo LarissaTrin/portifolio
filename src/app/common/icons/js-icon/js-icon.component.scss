@@ -1,0 +1,25 @@
+.svg-icons {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  fill: rgb(129, 129, 129);
+  stroke: none;
+  fill-rule: nonzero;
+  fill-opacity: 1;
+}
+
+.path-js1 {
+  fill: rgb(129, 129, 129);
+}
+
+.svg-icons:hover .path-js1 {
+  fill: #f0db4f;
+}
+
+.path-js2 {
+  fill: rgb(224, 224, 224);
+}
+
+.svg-icons:hover .path-js2 {
+  fill: #323330;
+}

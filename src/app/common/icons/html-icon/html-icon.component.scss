@@ -1,0 +1,33 @@
+.svg-icons {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  fill: rgb(129, 129, 129);
+  stroke: none;
+  fill-rule: nonzero;
+  fill-opacity: 1;
+}
+
+.path-html1 {
+  fill: rgb(109, 109, 109);
+}
+
+.svg-icons:hover .path-html1 {
+  fill: #e44d26;
+}
+
+.path-html2 {
+  fill: rgb(129, 129, 129);
+}
+
+.svg-icons:hover .path-html2 {
+  fill: #f16529;
+}
+
+.path-html3 {
+  fill: rgb(167, 167, 167);
+}
+
+.svg-icons:hover .path-html3 {
+  fill: #ebebeb;
+}

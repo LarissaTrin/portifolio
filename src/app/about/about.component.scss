@@ -15,40 +15,11 @@
 }
 
 .about-image {
-  height: 60vh;
-  width: 60vh;
+  height: 70vh;
+  width: 70vh;
 }
 
-.svg-icons {
-  width: 60px;
-  height: 60px;
-  transition: fill 0.3s ease;
-}
-
-.svg-icons2 {
-  width: 45px;
-  height: 45px;
-  transition: fill 0.3s ease;
-}
-
-.path-angular {
-  stroke: none;
-  fill-rule: nonzero;
-  fill: rgb(129, 129, 129);
-  fill-opacity: 1;
-}
-
-.svg-icons:hover .path-angular {
-  fill: rgb(86.666667%, 0%, 19.215686%);
-}
-
-.path-ts {
-  stroke: none;
-  fill-rule: nonzero;
-  fill: rgb(129, 129, 129);
-  fill-opacity: 1;
-}
-
-.svg-icons2:hover .path-ts {
-  fill: #007acc;
+.about-image {
+  height: 70vh;
+  width: 70vh;
 }

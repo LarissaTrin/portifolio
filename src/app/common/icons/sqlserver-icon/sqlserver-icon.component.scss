@@ -1,0 +1,17 @@
+.svg-icons {
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+  fill: rgb(129, 129, 129);
+  stroke: none;
+  fill-rule: nonzero;
+  fill-opacity: 1;
+}
+
+.path-sql {
+  fill: rgb(129, 129, 129);
+}
+
+.svg-icons:hover .path-sql {
+  fill: #ee352c;
+}

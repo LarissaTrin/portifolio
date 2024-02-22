@@ -1,0 +1,30 @@
+.svg-icons {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  fill: rgb(129, 129, 129); /* Cor padrão antes da transição */
+}
+
+.path-cplus1 {
+  fill: rgb(129, 129, 129);
+}
+
+.svg-icons:hover .path-cplus1 {
+  fill: #00599c;
+}
+
+.path-cplus2 {
+  fill: rgb(97, 97, 97);
+}
+
+.svg-icons:hover .path-cplus2 {
+  fill: #004482;
+}
+
+.path-cplus3 {
+  fill: rgb(157, 157, 157);
+}
+
+.svg-icons:hover .path-cplus3 {
+  fill: #659ad2;
+}

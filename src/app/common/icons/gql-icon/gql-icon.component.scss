@@ -1,0 +1,17 @@
+.svg-icons {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  fill: rgb(129, 129, 129);
+  stroke: none;
+  fill-rule: nonzero;
+  fill-opacity: 1;
+}
+
+.path-gql {
+  fill: rgb(129, 129, 129);
+}
+
+.svg-icons:hover .path-gql {
+  fill: #e434aa;
+}

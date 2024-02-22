@@ -1,0 +1,25 @@
+.svg-icons {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  fill: rgb(129, 129, 129);
+  stroke: none;
+  fill-rule: nonzero;
+  fill-opacity: 1;
+}
+
+.path-mysql1 {
+  fill: rgb(129, 129, 129);
+}
+
+.svg-icons:hover .path-mysql1 {
+  fill: #00618a;
+}
+
+.path-mysql2 {
+  fill: rgb(180, 178, 178);
+}
+
+.svg-icons:hover .path-mysql2 {
+  fill: #e48e00;
+}
